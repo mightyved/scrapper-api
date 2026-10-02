@@ -1,7 +1,6 @@
 import type { Request, Response } from "express";
 import mammoth from "mammoth";
 import multer from "multer";
-import { PDFParse } from "pdf-parse";
 import { analyzeResumeAgainstJob, generateTailoredResumeForJob, type ResumeJobInput } from "../lib/resumeAnalysis.js";
 
 const maxResumeFileSize = 4 * 1024 * 1024;
@@ -131,7 +130,13 @@ async function extractResumeText(file: Express.Multer.File): Promise<string> {
 }
 
 async function extractPdfText(buffer: Buffer): Promise<string> {
-  const parser = new PDFParse({ data: new Uint8Array(buffer) });
+  const { CanvasFactory } = await import("pdf-parse/worker");
+  const { PDFParse } = await import("pdf-parse");
+
+  const parser = new PDFParse({
+    data: buffer,
+    CanvasFactory
+  });
 
   try {
     const result = await parser.getText();
