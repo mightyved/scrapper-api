@@ -1,0 +1,75 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum JobSourceType {
+  RSS
+  API
+}
+
+enum JobStatus {
+  ACTIVE
+  EXPIRED
+  DUPLICATE
+  HIDDEN
+}
+
+model JobSource {
+  id            String        @id @default(cuid())
+  name          String
+  type          JobSourceType
+  url           String        @unique
+  enabled       Boolean       @default(true)
+  lastFetchedAt DateTime?
+  jobs          Job[]
+  createdAt     DateTime      @default(now())
+  updatedAt     DateTime      @updatedAt
+}
+
+model Job {
+  id             String    @id @default(cuid())
+  sourceId       String
+  externalId     String?
+  title          String
+  companyName    String?
+  description    String?
+  applyUrl       String    @unique
+  locationText   String?
+  remoteText     String?
+  employmentType String?
+  salaryText     String?
+  tags           String[]  @default([])
+  publishedAt    DateTime?
+  firstSeenAt    DateTime  @default(now())
+  lastSeenAt     DateTime  @default(now())
+  expiresAt      DateTime?
+  status         JobStatus @default(ACTIVE)
+  apacScore      Int       @default(0)
+  relevanceScore Int       @default(0)
+  totalScore     Int       @default(0)
+  matchReasons   String[]  @default([])
+  createdAt      DateTime  @default(now())
+  updatedAt      DateTime  @updatedAt
+
+  source JobSource @relation(fields: [sourceId], references: [id], onDelete: Cascade)
+
+  @@index([sourceId])
+  @@index([status])
+  @@index([publishedAt])
+  @@index([totalScore])
+}
+
+model UserPreference {
+  id              String   @id @default(cuid())
+  targetLocations String[] @default(["APAC", "LATAM", "EMEA", "Japan", "Vietnam", "Asia timezone", "Worldwide", "Anywhere"])
+  includeKeywords String[] @default([])
+  excludeKeywords String[] @default([])
+  minScore        Int      @default(60)
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+}

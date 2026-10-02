@@ -1,0 +1,1167 @@
+D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:242
+      throw new PrismaClientInitializationError(message, this.client._clientVersion)
+            ^
+
+
+PrismaClientInitializationError: 
+Invalid `prisma.job.findMany()` invocation in
+D:\job_api\api\src\controllers\jobsController.ts:6:33
+
+  3 import { prisma } from "../lib/prisma.js";
+  4 
+  5 export async function getJobs(_req: Request, res: Response) {
+→ 6   const jobs = await prisma.job.findMany(
+Can't reach database server at `localhost:5432`
+
+Please make sure your database server is running at `localhost:5432`.
+    at ei.handleRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:242:13)
+    at ei.handleAndLogRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ei.request (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async a (D:\job_api\api\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:833:24)
+    at async getJobs (D:\job_api\api\src\controllers\jobsController.ts:6:16) {
+  clientVersion: '6.19.3',
+  errorCode: undefined,
+  retryable: undefined
+}
+
+Node.js v24.8.0
+PrismaClientInitializationError: 
+Invalid `prisma.job.findMany()` invocation in
+D:\job_api\api\src\controllers\jobsController.ts:7:35
+
+  4 
+  5 export async function getJobs(_req: Request, res: Response) {
+  6   try {
+→ 7     const jobs = await prisma.job.findMany(
+Can't reach database server at `localhost:5432`
+
+Please make sure your database server is running at `localhost:5432`.
+    at ei.handleRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:242:13)
+    at ei.handleAndLogRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ei.request (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async a (D:\job_api\api\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:833:24)
+    at async getJobs (D:\job_api\api\src\controllers\jobsController.ts:7:18) {
+  clientVersion: '6.19.3',
+  errorCode: undefined,
+  retryable: undefined
+}
+PrismaClientInitializationError: 
+Invalid `prisma.job.findMany()` invocation in
+D:\job_api\api\src\controllers\jobsController.ts:7:35
+
+  4 
+  5 export async function getJobs(_req: Request, res: Response) {
+  6   try {
+→ 7     const jobs = await prisma.job.findMany(
+Can't reach database server at `localhost:5432`
+
+Please make sure your database server is running at `localhost:5432`.
+    at ei.handleRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:242:13)
+    at ei.handleAndLogRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ei.request (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async a (D:\job_api\api\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:833:24)
+    at async getJobs (D:\job_api\api\src\controllers\jobsController.ts:7:18) {
+  clientVersion: '6.19.3',
+  errorCode: undefined,
+  retryable: undefined
+}
+PrismaClientInitializationError: 
+Invalid `prisma.job.findMany()` invocation in
+D:\job_api\api\src\controllers\jobsController.ts:7:35
+
+  4 
+  5 export async function getJobs(_req: Request, res: Response) {
+  6   try {
+→ 7     const jobs = await prisma.job.findMany(
+Can't reach database server at `localhost:5432`
+
+Please make sure your database server is running at `localhost:5432`.
+    at ei.handleRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:242:13)
+    at ei.handleAndLogRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ei.request (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async a (D:\job_api\api\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:833:24)
+    at async getJobs (D:\job_api\api\src\controllers\jobsController.ts:7:18) {
+  clientVersion: '6.19.3',
+  errorCode: undefined,
+  retryable: undefined
+}
+PrismaClientInitializationError: 
+Invalid `prisma.job.findMany()` invocation in
+D:\job_api\api\src\controllers\jobsController.ts:7:35
+
+  4 
+  5 export async function getJobs(_req: Request, res: Response) {
+  6   try {
+→ 7     const jobs = await prisma.job.findMany(
+Can't reach database server at `localhost:5432`
+
+Please make sure your database server is running at `localhost:5432`.
+    at ei.handleRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:242:13)
+    at ei.handleAndLogRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ei.request (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async a (D:\job_api\api\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:833:24)
+    at async getJobs (D:\job_api\api\src\controllers\jobsController.ts:7:18) {
+  clientVersion: '6.19.3',
+  errorCode: undefined,
+  retryable: undefined
+}
+PrismaClientInitializationError: 
+Invalid `prisma.job.findMany()` invocation in
+D:\job_api\api\src\controllers\jobsController.ts:7:35
+
+  4 
+  5 export async function getJobs(_req: Request, res: Response) {
+  6   try {
+→ 7     const jobs = await prisma.job.findMany(
+Can't reach database server at `localhost:5432`
+
+Please make sure your database server is running at `localhost:5432`.
+    at ei.handleRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:242:13)
+    at ei.handleAndLogRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ei.request (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async a (D:\job_api\api\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:833:24)
+    at async getJobs (D:\job_api\api\src\controllers\jobsController.ts:7:18) {
+  clientVersion: '6.19.3',
+  errorCode: undefined,
+  retryable: undefined
+}
+PrismaClientInitializationError: 
+Invalid `prisma.job.findMany()` invocation in
+D:\job_api\api\src\controllers\jobsController.ts:7:35
+
+  4 
+  5 export async function getJobs(_req: Request, res: Response) {
+  6   try {
+→ 7     const jobs = await prisma.job.findMany(
+Can't reach database server at `localhost:5432`
+
+Please make sure your database server is running at `localhost:5432`.
+    at ei.handleRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:242:13)
+    at ei.handleAndLogRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ei.request (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async a (D:\job_api\api\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:833:24)
+    at async getJobs (D:\job_api\api\src\controllers\jobsController.ts:7:18) {
+  clientVersion: '6.19.3',
+  errorCode: undefined,
+  retryable: undefined
+}
+PrismaClientInitializationError: 
+Invalid `prisma.job.findMany()` invocation in
+D:\job_api\api\src\controllers\jobsController.ts:7:35
+
+  4 
+  5 export async function getJobs(_req: Request, res: Response) {
+  6   try {
+→ 7     const jobs = await prisma.job.findMany(
+Can't reach database server at `localhost:5432`
+
+Please make sure your database server is running at `localhost:5432`.
+    at ei.handleRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:242:13)
+    at ei.handleAndLogRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ei.request (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async a (D:\job_api\api\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:833:24)
+    at async getJobs (D:\job_api\api\src\controllers\jobsController.ts:7:18) {
+  clientVersion: '6.19.3',
+  errorCode: undefined,
+  retryable: undefined
+}
+PrismaClientInitializationError: 
+Invalid `prisma.job.findMany()` invocation in
+D:\job_api\api\src\controllers\jobsController.ts:7:35
+
+  4 
+  5 export async function getJobs(_req: Request, res: Response) {
+  6   try {
+→ 7     const jobs = await prisma.job.findMany(
+Can't reach database server at `localhost:5432`
+
+Please make sure your database server is running at `localhost:5432`.
+    at ei.handleRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:242:13)
+    at ei.handleAndLogRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ei.request (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async a (D:\job_api\api\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:833:24)
+    at async getJobs (D:\job_api\api\src\controllers\jobsController.ts:7:18) {
+  clientVersion: '6.19.3',
+  errorCode: undefined,
+  retryable: undefined
+}
+PrismaClientInitializationError: 
+Invalid `prisma.job.findMany()` invocation in
+D:\job_api\api\src\controllers\jobsController.ts:7:35
+
+  4 
+  5 export async function getJobs(_req: Request, res: Response) {
+  6   try {
+→ 7     const jobs = await prisma.job.findMany(
+Can't reach database server at `localhost:5432`
+
+Please make sure your database server is running at `localhost:5432`.
+    at ei.handleRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:242:13)
+    at ei.handleAndLogRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ei.request (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async a (D:\job_api\api\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:833:24)
+    at async getJobs (D:\job_api\api\src\controllers\jobsController.ts:7:18) {
+  clientVersion: '6.19.3',
+  errorCode: undefined,
+  retryable: undefined
+}
+PrismaClientInitializationError: 
+Invalid `prisma.job.findMany()` invocation in
+D:\job_api\api\src\controllers\jobsController.ts:7:35
+
+  4 
+  5 export async function getJobs(_req: Request, res: Response) {
+  6   try {
+→ 7     const jobs = await prisma.job.findMany(
+Can't reach database server at `localhost:5432`
+
+Please make sure your database server is running at `localhost:5432`.
+    at ei.handleRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:242:13)
+    at ei.handleAndLogRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ei.request (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async a (D:\job_api\api\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:833:24)
+    at async getJobs (D:\job_api\api\src\controllers\jobsController.ts:7:18) {
+  clientVersion: '6.19.3',
+  errorCode: undefined,
+  retryable: undefined
+}
+PrismaClientInitializationError: 
+Invalid `prisma.job.findMany()` invocation in
+D:\job_api\api\src\controllers\jobsController.ts:7:35
+
+  4 
+  5 export async function getJobs(_req: Request, res: Response) {
+  6   try {
+→ 7     const jobs = await prisma.job.findMany(
+Can't reach database server at `localhost:5432`
+
+Please make sure your database server is running at `localhost:5432`.
+    at ei.handleRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:242:13)
+    at ei.handleAndLogRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ei.request (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async a (D:\job_api\api\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:833:24)
+    at async getJobs (D:\job_api\api\src\controllers\jobsController.ts:7:18) {
+  clientVersion: '6.19.3',
+  errorCode: undefined,
+  retryable: undefined
+}
+PrismaClientInitializationError: 
+Invalid `prisma.job.findMany()` invocation in
+D:\job_api\api\src\controllers\jobsController.ts:7:35
+
+  4 
+  5 export async function getJobs(_req: Request, res: Response) {
+  6   try {
+→ 7     const jobs = await prisma.job.findMany(
+Can't reach database server at `localhost:5432`
+
+Please make sure your database server is running at `localhost:5432`.
+    at ei.handleRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:242:13)
+    at ei.handleAndLogRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ei.request (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async a (D:\job_api\api\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:833:24)
+    at async getJobs (D:\job_api\api\src\controllers\jobsController.ts:7:18) {
+  clientVersion: '6.19.3',
+  errorCode: undefined,
+  retryable: undefined
+}
+PrismaClientInitializationError: 
+Invalid `prisma.job.findMany()` invocation in
+D:\job_api\api\src\controllers\jobsController.ts:7:35
+
+  4 
+  5 export async function getJobs(_req: Request, res: Response) {
+  6   try {
+→ 7     const jobs = await prisma.job.findMany(
+Can't reach database server at `localhost:5432`
+
+Please make sure your database server is running at `localhost:5432`.
+    at ei.handleRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:242:13)
+    at ei.handleAndLogRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ei.request (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async a (D:\job_api\api\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:833:24)
+    at async getJobs (D:\job_api\api\src\controllers\jobsController.ts:7:18) {
+  clientVersion: '6.19.3',
+  errorCode: undefined,
+  retryable: undefined
+}
+PrismaClientInitializationError: 
+Invalid `prisma.job.findMany()` invocation in
+D:\job_api\api\src\controllers\jobsController.ts:7:35
+
+  4 
+  5 export async function getJobs(_req: Request, res: Response) {
+  6   try {
+→ 7     const jobs = await prisma.job.findMany(
+Can't reach database server at `localhost:5432`
+
+Please make sure your database server is running at `localhost:5432`.
+    at ei.handleRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:242:13)
+    at ei.handleAndLogRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ei.request (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async a (D:\job_api\api\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:833:24)
+    at async getJobs (D:\job_api\api\src\controllers\jobsController.ts:7:18) {
+  clientVersion: '6.19.3',
+  errorCode: undefined,
+  retryable: undefined
+}
+PrismaClientInitializationError: 
+Invalid `prisma.job.findMany()` invocation in
+D:\job_api\api\src\controllers\jobsController.ts:8:35
+
+  5 
+  6 export async function getJobs(_req: Request, res: Response) {
+  7   try {
+→ 8     const jobs = await prisma.job.findMany(
+Can't reach database server at `localhost:5432`
+
+Please make sure your database server is running at `localhost:5432`.
+    at ei.handleRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:242:13)
+    at ei.handleAndLogRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ei.request (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async a (D:\job_api\api\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:833:24)
+    at async getJobs (D:\job_api\api\src\controllers\jobsController.ts:8:18) {
+  clientVersion: '6.19.3',
+  errorCode: undefined,
+  retryable: undefined
+}
+[live-jobs] Source failed: Error: Invalid character in entity name
+Line: 53
+Column: 78
+Char: =
+    at error (D:\job_api\api\node_modules\sax\lib\sax.js:829:10)
+    at strictFail (D:\job_api\api\node_modules\sax\lib\sax.js:858:7)
+    at SAXParser.write (D:\job_api\api\node_modules\sax\lib\sax.js:1771:13)
+    at exports.Parser.Parser.parseString (D:\job_api\api\node_modules\xml2js\lib\parser.js:327:31)
+    at Parser.parseString (D:\job_api\api\node_modules\xml2js\lib\parser.js:5:59)
+    at D:\job_api\api\node_modules\rss-parser\lib\parser.js:33:22
+    at new Promise (<anonymous>)
+    at Parser.parseString (D:\job_api\api\node_modules\rss-parser\lib\parser.js:32:16)
+    at IncomingMessage.<anonymous> (D:\job_api\api\node_modules\rss-parser\lib\parser.js:96:23)
+    at IncomingMessage.emit (node:events:520:35)
+PrismaClientInitializationError: 
+Invalid `prisma.job.findMany()` invocation in
+D:\job_api\api\src\controllers\jobsController.ts:8:35
+
+  5 
+  6 export async function getJobs(_req: Request, res: Response) {
+  7   try {
+→ 8     const jobs = await prisma.job.findMany(
+Can't reach database server at `localhost:5432`
+
+Please make sure your database server is running at `localhost:5432`.
+    at ei.handleRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:242:13)
+    at ei.handleAndLogRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ei.request (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async a (D:\job_api\api\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:833:24)
+    at async getJobs (D:\job_api\api\src\controllers\jobsController.ts:8:18) {
+  clientVersion: '6.19.3',
+  errorCode: undefined,
+  retryable: undefined
+}
+[live-jobs] Source failed: Error: Invalid character in entity name
+Line: 53
+Column: 78
+Char: =
+    at error (D:\job_api\api\node_modules\sax\lib\sax.js:829:10)
+    at strictFail (D:\job_api\api\node_modules\sax\lib\sax.js:858:7)
+    at SAXParser.write (D:\job_api\api\node_modules\sax\lib\sax.js:1771:13)
+    at exports.Parser.Parser.parseString (D:\job_api\api\node_modules\xml2js\lib\parser.js:327:31)
+    at Parser.parseString (D:\job_api\api\node_modules\xml2js\lib\parser.js:5:59)
+    at D:\job_api\api\node_modules\rss-parser\lib\parser.js:33:22
+    at new Promise (<anonymous>)
+    at Parser.parseString (D:\job_api\api\node_modules\rss-parser\lib\parser.js:32:16)
+    at IncomingMessage.<anonymous> (D:\job_api\api\node_modules\rss-parser\lib\parser.js:96:23)
+    at IncomingMessage.emit (node:events:520:35)
+PrismaClientInitializationError: 
+Invalid `prisma.job.findMany()` invocation in
+D:\job_api\api\src\controllers\jobsController.ts:8:35
+
+  5 
+  6 export async function getJobs(_req: Request, res: Response) {
+  7   try {
+→ 8     const jobs = await prisma.job.findMany(
+Can't reach database server at `localhost:5432`
+
+Please make sure your database server is running at `localhost:5432`.
+    at ei.handleRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:242:13)
+    at ei.handleAndLogRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ei.request (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async a (D:\job_api\api\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:833:24)
+    at async getJobs (D:\job_api\api\src\controllers\jobsController.ts:8:18) {
+  clientVersion: '6.19.3',
+  errorCode: undefined,
+  retryable: undefined
+}
+[live-jobs] Source failed: Error: Invalid character in entity name
+Line: 53
+Column: 78
+Char: =
+    at error (D:\job_api\api\node_modules\sax\lib\sax.js:829:10)
+    at strictFail (D:\job_api\api\node_modules\sax\lib\sax.js:858:7)
+    at SAXParser.write (D:\job_api\api\node_modules\sax\lib\sax.js:1771:13)
+    at exports.Parser.Parser.parseString (D:\job_api\api\node_modules\xml2js\lib\parser.js:327:31)
+    at Parser.parseString (D:\job_api\api\node_modules\xml2js\lib\parser.js:5:59)
+    at D:\job_api\api\node_modules\rss-parser\lib\parser.js:33:22
+    at new Promise (<anonymous>)
+    at Parser.parseString (D:\job_api\api\node_modules\rss-parser\lib\parser.js:32:16)
+    at IncomingMessage.<anonymous> (D:\job_api\api\node_modules\rss-parser\lib\parser.js:96:23)
+    at IncomingMessage.emit (node:events:520:35)
+PrismaClientInitializationError: 
+Invalid `prisma.job.findMany()` invocation in
+D:\job_api\api\src\controllers\jobsController.ts:8:35
+
+  5 
+  6 export async function getJobs(_req: Request, res: Response) {
+  7   try {
+→ 8     const jobs = await prisma.job.findMany(
+Can't reach database server at `localhost:5432`
+
+Please make sure your database server is running at `localhost:5432`.
+    at ei.handleRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:242:13)
+    at ei.handleAndLogRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ei.request (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async a (D:\job_api\api\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:833:24)
+    at async getJobs (D:\job_api\api\src\controllers\jobsController.ts:8:18) {
+  clientVersion: '6.19.3',
+  errorCode: undefined,
+  retryable: undefined
+}
+[live-jobs] Source failed: Error: Invalid character in entity name
+Line: 53
+Column: 78
+Char: =
+    at error (D:\job_api\api\node_modules\sax\lib\sax.js:829:10)
+    at strictFail (D:\job_api\api\node_modules\sax\lib\sax.js:858:7)
+    at SAXParser.write (D:\job_api\api\node_modules\sax\lib\sax.js:1771:13)
+    at exports.Parser.Parser.parseString (D:\job_api\api\node_modules\xml2js\lib\parser.js:327:31)
+    at Parser.parseString (D:\job_api\api\node_modules\xml2js\lib\parser.js:5:59)
+    at D:\job_api\api\node_modules\rss-parser\lib\parser.js:33:22
+    at new Promise (<anonymous>)
+    at Parser.parseString (D:\job_api\api\node_modules\rss-parser\lib\parser.js:32:16)
+    at IncomingMessage.<anonymous> (D:\job_api\api\node_modules\rss-parser\lib\parser.js:96:23)
+    at IncomingMessage.emit (node:events:520:35)
+PrismaClientInitializationError: 
+Invalid `prisma.job.findMany()` invocation in
+D:\job_api\api\src\controllers\jobsController.ts:8:35
+
+  5 
+  6 export async function getJobs(_req: Request, res: Response) {
+  7   try {
+→ 8     const jobs = await prisma.job.findMany(
+Database `apac_remote_job_tracker` does not exist
+    at ei.handleRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:242:13)
+    at ei.handleAndLogRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ei.request (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async a (D:\job_api\api\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:833:24)
+    at async getJobs (D:\job_api\api\src\controllers\jobsController.ts:8:18) {
+  clientVersion: '6.19.3',
+  errorCode: undefined,
+  retryable: undefined
+}
+[live-jobs] Source failed: Error: Invalid character in entity name
+Line: 53
+Column: 78
+Char: =
+    at error (D:\job_api\api\node_modules\sax\lib\sax.js:829:10)
+    at strictFail (D:\job_api\api\node_modules\sax\lib\sax.js:858:7)
+    at SAXParser.write (D:\job_api\api\node_modules\sax\lib\sax.js:1771:13)
+    at exports.Parser.Parser.parseString (D:\job_api\api\node_modules\xml2js\lib\parser.js:327:31)
+    at Parser.parseString (D:\job_api\api\node_modules\xml2js\lib\parser.js:5:59)
+    at D:\job_api\api\node_modules\rss-parser\lib\parser.js:33:22
+    at new Promise (<anonymous>)
+    at Parser.parseString (D:\job_api\api\node_modules\rss-parser\lib\parser.js:32:16)
+    at IncomingMessage.<anonymous> (D:\job_api\api\node_modules\rss-parser\lib\parser.js:96:23)
+    at IncomingMessage.emit (node:events:520:35)
+PrismaClientInitializationError: 
+Invalid `prisma.job.findMany()` invocation in
+D:\job_api\api\src\controllers\jobsController.ts:8:35
+
+  5 
+  6 export async function getJobs(_req: Request, res: Response) {
+  7   try {
+→ 8     const jobs = await prisma.job.findMany(
+Database `apac_remote_job_tracker` does not exist
+    at ei.handleRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:242:13)
+    at ei.handleAndLogRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ei.request (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async a (D:\job_api\api\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:833:24)
+    at async getJobs (D:\job_api\api\src\controllers\jobsController.ts:8:18) {
+  clientVersion: '6.19.3',
+  errorCode: undefined,
+  retryable: undefined
+}
+[live-jobs] Source failed: Error: Invalid character in entity name
+Line: 53
+Column: 78
+Char: =
+    at error (D:\job_api\api\node_modules\sax\lib\sax.js:829:10)
+    at strictFail (D:\job_api\api\node_modules\sax\lib\sax.js:858:7)
+    at SAXParser.write (D:\job_api\api\node_modules\sax\lib\sax.js:1771:13)
+    at exports.Parser.Parser.parseString (D:\job_api\api\node_modules\xml2js\lib\parser.js:327:31)
+    at Parser.parseString (D:\job_api\api\node_modules\xml2js\lib\parser.js:5:59)
+    at D:\job_api\api\node_modules\rss-parser\lib\parser.js:33:22
+    at new Promise (<anonymous>)
+    at Parser.parseString (D:\job_api\api\node_modules\rss-parser\lib\parser.js:32:16)
+    at IncomingMessage.<anonymous> (D:\job_api\api\node_modules\rss-parser\lib\parser.js:96:23)
+    at IncomingMessage.emit (node:events:520:35)
+PrismaClientInitializationError: 
+Invalid `prisma.job.findMany()` invocation in
+D:\job_api\api\src\controllers\jobsController.ts:8:35
+
+  5 
+  6 export async function getJobs(_req: Request, res: Response) {
+  7   try {
+→ 8     const jobs = await prisma.job.findMany(
+Database `apac_remote_job_tracker` does not exist
+    at ei.handleRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:242:13)
+    at ei.handleAndLogRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ei.request (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async a (D:\job_api\api\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:833:24)
+    at async getJobs (D:\job_api\api\src\controllers\jobsController.ts:8:18) {
+  clientVersion: '6.19.3',
+  errorCode: undefined,
+  retryable: undefined
+}
+[live-jobs] Source failed: Error: Invalid character in entity name
+Line: 53
+Column: 78
+Char: =
+    at error (D:\job_api\api\node_modules\sax\lib\sax.js:829:10)
+    at strictFail (D:\job_api\api\node_modules\sax\lib\sax.js:858:7)
+    at SAXParser.write (D:\job_api\api\node_modules\sax\lib\sax.js:1771:13)
+    at exports.Parser.Parser.parseString (D:\job_api\api\node_modules\xml2js\lib\parser.js:327:31)
+    at Parser.parseString (D:\job_api\api\node_modules\xml2js\lib\parser.js:5:59)
+    at D:\job_api\api\node_modules\rss-parser\lib\parser.js:33:22
+    at new Promise (<anonymous>)
+    at Parser.parseString (D:\job_api\api\node_modules\rss-parser\lib\parser.js:32:16)
+    at IncomingMessage.<anonymous> (D:\job_api\api\node_modules\rss-parser\lib\parser.js:96:23)
+    at IncomingMessage.emit (node:events:520:35)
+PrismaClientInitializationError: 
+Invalid `prisma.job.findMany()` invocation in
+D:\job_api\api\src\controllers\jobsController.ts:8:35
+
+  5 
+  6 export async function getJobs(_req: Request, res: Response) {
+  7   try {
+→ 8     const jobs = await prisma.job.findMany(
+Database `apac_remote_job_tracker` does not exist
+    at ei.handleRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:242:13)
+    at ei.handleAndLogRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ei.request (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async a (D:\job_api\api\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:833:24)
+    at async getJobs (D:\job_api\api\src\controllers\jobsController.ts:8:18) {
+  clientVersion: '6.19.3',
+  errorCode: undefined,
+  retryable: undefined
+}
+[live-jobs] Source failed: Error: Invalid character in entity name
+Line: 53
+Column: 78
+Char: =
+    at error (D:\job_api\api\node_modules\sax\lib\sax.js:829:10)
+    at strictFail (D:\job_api\api\node_modules\sax\lib\sax.js:858:7)
+    at SAXParser.write (D:\job_api\api\node_modules\sax\lib\sax.js:1771:13)
+    at exports.Parser.Parser.parseString (D:\job_api\api\node_modules\xml2js\lib\parser.js:327:31)
+    at Parser.parseString (D:\job_api\api\node_modules\xml2js\lib\parser.js:5:59)
+    at D:\job_api\api\node_modules\rss-parser\lib\parser.js:33:22
+    at new Promise (<anonymous>)
+    at Parser.parseString (D:\job_api\api\node_modules\rss-parser\lib\parser.js:32:16)
+    at IncomingMessage.<anonymous> (D:\job_api\api\node_modules\rss-parser\lib\parser.js:96:23)
+    at IncomingMessage.emit (node:events:520:35)
+PrismaClientInitializationError: 
+Invalid `prisma.job.findMany()` invocation in
+D:\job_api\api\src\controllers\jobsController.ts:8:35
+
+  5 
+  6 export async function getJobs(_req: Request, res: Response) {
+  7   try {
+→ 8     const jobs = await prisma.job.findMany(
+Database `apac_remote_job_tracker` does not exist
+    at ei.handleRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:242:13)
+    at ei.handleAndLogRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ei.request (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async a (D:\job_api\api\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:833:24)
+    at async getJobs (D:\job_api\api\src\controllers\jobsController.ts:8:18) {
+  clientVersion: '6.19.3',
+  errorCode: undefined,
+  retryable: undefined
+}
+[live-jobs] Source failed: Error: Invalid character in entity name
+Line: 53
+Column: 78
+Char: =
+    at error (D:\job_api\api\node_modules\sax\lib\sax.js:829:10)
+    at strictFail (D:\job_api\api\node_modules\sax\lib\sax.js:858:7)
+    at SAXParser.write (D:\job_api\api\node_modules\sax\lib\sax.js:1771:13)
+    at exports.Parser.Parser.parseString (D:\job_api\api\node_modules\xml2js\lib\parser.js:327:31)
+    at Parser.parseString (D:\job_api\api\node_modules\xml2js\lib\parser.js:5:59)
+    at D:\job_api\api\node_modules\rss-parser\lib\parser.js:33:22
+    at new Promise (<anonymous>)
+    at Parser.parseString (D:\job_api\api\node_modules\rss-parser\lib\parser.js:32:16)
+    at IncomingMessage.<anonymous> (D:\job_api\api\node_modules\rss-parser\lib\parser.js:96:23)
+    at IncomingMessage.emit (node:events:520:35)
+PrismaClientInitializationError: 
+Invalid `prisma.job.findMany()` invocation in
+D:\job_api\api\src\controllers\jobsController.ts:8:35
+
+  5 
+  6 export async function getJobs(_req: Request, res: Response) {
+  7   try {
+→ 8     const jobs = await prisma.job.findMany(
+Database `apac_remote_job_tracker` does not exist
+    at ei.handleRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:242:13)
+    at ei.handleAndLogRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ei.request (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async a (D:\job_api\api\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:833:24)
+    at async getJobs (D:\job_api\api\src\controllers\jobsController.ts:8:18) {
+  clientVersion: '6.19.3',
+  errorCode: undefined,
+  retryable: undefined
+}
+[live-jobs] Source failed: Error: Invalid character in entity name
+Line: 53
+Column: 78
+Char: =
+    at error (D:\job_api\api\node_modules\sax\lib\sax.js:829:10)
+    at strictFail (D:\job_api\api\node_modules\sax\lib\sax.js:858:7)
+    at SAXParser.write (D:\job_api\api\node_modules\sax\lib\sax.js:1771:13)
+    at exports.Parser.Parser.parseString (D:\job_api\api\node_modules\xml2js\lib\parser.js:327:31)
+    at Parser.parseString (D:\job_api\api\node_modules\xml2js\lib\parser.js:5:59)
+    at D:\job_api\api\node_modules\rss-parser\lib\parser.js:33:22
+    at new Promise (<anonymous>)
+    at Parser.parseString (D:\job_api\api\node_modules\rss-parser\lib\parser.js:32:16)
+    at IncomingMessage.<anonymous> (D:\job_api\api\node_modules\rss-parser\lib\parser.js:96:23)
+    at IncomingMessage.emit (node:events:520:35)
+PrismaClientInitializationError: 
+Invalid `prisma.job.findMany()` invocation in
+D:\job_api\api\src\controllers\jobsController.ts:8:35
+
+  5 
+  6 export async function getJobs(_req: Request, res: Response) {
+  7   try {
+→ 8     const jobs = await prisma.job.findMany(
+Database `apac_remote_job_tracker` does not exist
+    at ei.handleRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:242:13)
+    at ei.handleAndLogRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ei.request (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async a (D:\job_api\api\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:833:24)
+    at async getJobs (D:\job_api\api\src\controllers\jobsController.ts:8:18) {
+  clientVersion: '6.19.3',
+  errorCode: undefined,
+  retryable: undefined
+}
+[live-jobs] Source failed: Error: Invalid character in entity name
+Line: 53
+Column: 78
+Char: =
+    at error (D:\job_api\api\node_modules\sax\lib\sax.js:829:10)
+    at strictFail (D:\job_api\api\node_modules\sax\lib\sax.js:858:7)
+    at SAXParser.write (D:\job_api\api\node_modules\sax\lib\sax.js:1771:13)
+    at exports.Parser.Parser.parseString (D:\job_api\api\node_modules\xml2js\lib\parser.js:327:31)
+    at Parser.parseString (D:\job_api\api\node_modules\xml2js\lib\parser.js:5:59)
+    at D:\job_api\api\node_modules\rss-parser\lib\parser.js:33:22
+    at new Promise (<anonymous>)
+    at Parser.parseString (D:\job_api\api\node_modules\rss-parser\lib\parser.js:32:16)
+    at IncomingMessage.<anonymous> (D:\job_api\api\node_modules\rss-parser\lib\parser.js:96:23)
+    at IncomingMessage.emit (node:events:520:35)
+PrismaClientInitializationError: 
+Invalid `prisma.job.findMany()` invocation in
+D:\job_api\api\src\controllers\jobsController.ts:8:35
+
+  5 
+  6 export async function getJobs(_req: Request, res: Response) {
+  7   try {
+→ 8     const jobs = await prisma.job.findMany(
+Database `apac_remote_job_tracker` does not exist
+    at ei.handleRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:242:13)
+    at ei.handleAndLogRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ei.request (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async a (D:\job_api\api\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:833:24)
+    at async getJobs (D:\job_api\api\src\controllers\jobsController.ts:8:18) {
+  clientVersion: '6.19.3',
+  errorCode: undefined,
+  retryable: undefined
+}
+[live-jobs] Source failed: Error: Invalid character in entity name
+Line: 53
+Column: 78
+Char: =
+    at error (D:\job_api\api\node_modules\sax\lib\sax.js:829:10)
+    at strictFail (D:\job_api\api\node_modules\sax\lib\sax.js:858:7)
+    at SAXParser.write (D:\job_api\api\node_modules\sax\lib\sax.js:1771:13)
+    at exports.Parser.Parser.parseString (D:\job_api\api\node_modules\xml2js\lib\parser.js:327:31)
+    at Parser.parseString (D:\job_api\api\node_modules\xml2js\lib\parser.js:5:59)
+    at D:\job_api\api\node_modules\rss-parser\lib\parser.js:33:22
+    at new Promise (<anonymous>)
+    at Parser.parseString (D:\job_api\api\node_modules\rss-parser\lib\parser.js:32:16)
+    at IncomingMessage.<anonymous> (D:\job_api\api\node_modules\rss-parser\lib\parser.js:96:23)
+    at IncomingMessage.emit (node:events:520:35)
+PrismaClientInitializationError: 
+Invalid `prisma.job.findMany()` invocation in
+D:\job_api\api\src\controllers\jobsController.ts:8:35
+
+  5 
+  6 export async function getJobs(_req: Request, res: Response) {
+  7   try {
+→ 8     const jobs = await prisma.job.findMany(
+Database `apac_remote_job_tracker` does not exist
+    at ei.handleRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:242:13)
+    at ei.handleAndLogRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ei.request (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async a (D:\job_api\api\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:833:24)
+    at async getJobs (D:\job_api\api\src\controllers\jobsController.ts:8:18) {
+  clientVersion: '6.19.3',
+  errorCode: undefined,
+  retryable: undefined
+}
+[live-jobs] Source failed: Error: Invalid character in entity name
+Line: 53
+Column: 78
+Char: =
+    at error (D:\job_api\api\node_modules\sax\lib\sax.js:829:10)
+    at strictFail (D:\job_api\api\node_modules\sax\lib\sax.js:858:7)
+    at SAXParser.write (D:\job_api\api\node_modules\sax\lib\sax.js:1771:13)
+    at exports.Parser.Parser.parseString (D:\job_api\api\node_modules\xml2js\lib\parser.js:327:31)
+    at Parser.parseString (D:\job_api\api\node_modules\xml2js\lib\parser.js:5:59)
+    at D:\job_api\api\node_modules\rss-parser\lib\parser.js:33:22
+    at new Promise (<anonymous>)
+    at Parser.parseString (D:\job_api\api\node_modules\rss-parser\lib\parser.js:32:16)
+    at IncomingMessage.<anonymous> (D:\job_api\api\node_modules\rss-parser\lib\parser.js:96:23)
+    at IncomingMessage.emit (node:events:520:35)
+PrismaClientInitializationError: 
+Invalid `prisma.job.findMany()` invocation in
+D:\job_api\api\src\controllers\jobsController.ts:8:35
+
+  5 
+  6 export async function getJobs(_req: Request, res: Response) {
+  7   try {
+→ 8     const jobs = await prisma.job.findMany(
+Database `apac_remote_job_tracker` does not exist
+    at ei.handleRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:242:13)
+    at ei.handleAndLogRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ei.request (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async a (D:\job_api\api\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:833:24)
+    at async getJobs (D:\job_api\api\src\controllers\jobsController.ts:8:18) {
+  clientVersion: '6.19.3',
+  errorCode: undefined,
+  retryable: undefined
+}
+[live-jobs] Source failed: Error: Invalid character in entity name
+Line: 53
+Column: 78
+Char: =
+    at error (D:\job_api\api\node_modules\sax\lib\sax.js:829:10)
+    at strictFail (D:\job_api\api\node_modules\sax\lib\sax.js:858:7)
+    at SAXParser.write (D:\job_api\api\node_modules\sax\lib\sax.js:1771:13)
+    at exports.Parser.Parser.parseString (D:\job_api\api\node_modules\xml2js\lib\parser.js:327:31)
+    at Parser.parseString (D:\job_api\api\node_modules\xml2js\lib\parser.js:5:59)
+    at D:\job_api\api\node_modules\rss-parser\lib\parser.js:33:22
+    at new Promise (<anonymous>)
+    at Parser.parseString (D:\job_api\api\node_modules\rss-parser\lib\parser.js:32:16)
+    at IncomingMessage.<anonymous> (D:\job_api\api\node_modules\rss-parser\lib\parser.js:96:23)
+    at IncomingMessage.emit (node:events:520:35)
+PrismaClientInitializationError: 
+Invalid `prisma.job.findMany()` invocation in
+D:\job_api\api\src\controllers\jobsController.ts:8:35
+
+  5 
+  6 export async function getJobs(_req: Request, res: Response) {
+  7   try {
+→ 8     const jobs = await prisma.job.findMany(
+Database `apac_remote_job_tracker` does not exist
+    at ei.handleRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:242:13)
+    at ei.handleAndLogRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ei.request (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async a (D:\job_api\api\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:833:24)
+    at async getJobs (D:\job_api\api\src\controllers\jobsController.ts:8:18) {
+  clientVersion: '6.19.3',
+  errorCode: undefined,
+  retryable: undefined
+}
+[live-jobs] Source failed: Error: Invalid character in entity name
+Line: 53
+Column: 78
+Char: =
+    at error (D:\job_api\api\node_modules\sax\lib\sax.js:829:10)
+    at strictFail (D:\job_api\api\node_modules\sax\lib\sax.js:858:7)
+    at SAXParser.write (D:\job_api\api\node_modules\sax\lib\sax.js:1771:13)
+    at exports.Parser.Parser.parseString (D:\job_api\api\node_modules\xml2js\lib\parser.js:327:31)
+    at Parser.parseString (D:\job_api\api\node_modules\xml2js\lib\parser.js:5:59)
+    at D:\job_api\api\node_modules\rss-parser\lib\parser.js:33:22
+    at new Promise (<anonymous>)
+    at Parser.parseString (D:\job_api\api\node_modules\rss-parser\lib\parser.js:32:16)
+    at IncomingMessage.<anonymous> (D:\job_api\api\node_modules\rss-parser\lib\parser.js:96:23)
+    at IncomingMessage.emit (node:events:520:35)
+PrismaClientInitializationError: 
+Invalid `prisma.job.findMany()` invocation in
+D:\job_api\api\src\controllers\jobsController.ts:8:35
+
+  5 
+  6 export async function getJobs(_req: Request, res: Response) {
+  7   try {
+→ 8     const jobs = await prisma.job.findMany(
+Database `apac_remote_job_tracker` does not exist
+    at ei.handleRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:242:13)
+    at ei.handleAndLogRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ei.request (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async a (D:\job_api\api\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:833:24)
+    at async getJobs (D:\job_api\api\src\controllers\jobsController.ts:8:18) {
+  clientVersion: '6.19.3',
+  errorCode: undefined,
+  retryable: undefined
+}
+[live-jobs] Source failed: Error: Invalid character in entity name
+Line: 53
+Column: 78
+Char: =
+    at error (D:\job_api\api\node_modules\sax\lib\sax.js:829:10)
+    at strictFail (D:\job_api\api\node_modules\sax\lib\sax.js:858:7)
+    at SAXParser.write (D:\job_api\api\node_modules\sax\lib\sax.js:1771:13)
+    at exports.Parser.Parser.parseString (D:\job_api\api\node_modules\xml2js\lib\parser.js:327:31)
+    at Parser.parseString (D:\job_api\api\node_modules\xml2js\lib\parser.js:5:59)
+    at D:\job_api\api\node_modules\rss-parser\lib\parser.js:33:22
+    at new Promise (<anonymous>)
+    at Parser.parseString (D:\job_api\api\node_modules\rss-parser\lib\parser.js:32:16)
+    at IncomingMessage.<anonymous> (D:\job_api\api\node_modules\rss-parser\lib\parser.js:96:23)
+    at IncomingMessage.emit (node:events:520:35)
+PrismaClientInitializationError: 
+Invalid `prisma.job.findMany()` invocation in
+D:\job_api\api\src\controllers\jobsController.ts:8:35
+
+  5 
+  6 export async function getJobs(_req: Request, res: Response) {
+  7   try {
+→ 8     const jobs = await prisma.job.findMany(
+Database `apac_remote_job_tracker` does not exist
+    at ei.handleRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:242:13)
+    at ei.handleAndLogRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ei.request (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async a (D:\job_api\api\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:833:24)
+    at async getJobs (D:\job_api\api\src\controllers\jobsController.ts:8:18) {
+  clientVersion: '6.19.3',
+  errorCode: undefined,
+  retryable: undefined
+}
+[live-jobs] Source failed: Error: Invalid character in entity name
+Line: 53
+Column: 78
+Char: =
+    at error (D:\job_api\api\node_modules\sax\lib\sax.js:829:10)
+    at strictFail (D:\job_api\api\node_modules\sax\lib\sax.js:858:7)
+    at SAXParser.write (D:\job_api\api\node_modules\sax\lib\sax.js:1771:13)
+    at exports.Parser.Parser.parseString (D:\job_api\api\node_modules\xml2js\lib\parser.js:327:31)
+    at Parser.parseString (D:\job_api\api\node_modules\xml2js\lib\parser.js:5:59)
+    at D:\job_api\api\node_modules\rss-parser\lib\parser.js:33:22
+    at new Promise (<anonymous>)
+    at Parser.parseString (D:\job_api\api\node_modules\rss-parser\lib\parser.js:32:16)
+    at IncomingMessage.<anonymous> (D:\job_api\api\node_modules\rss-parser\lib\parser.js:96:23)
+    at IncomingMessage.emit (node:events:520:35)
+PrismaClientInitializationError: 
+Invalid `prisma.job.findMany()` invocation in
+D:\job_api\api\src\controllers\jobsController.ts:8:35
+
+  5 
+  6 export async function getJobs(_req: Request, res: Response) {
+  7   try {
+→ 8     const jobs = await prisma.job.findMany(
+Database `apac_remote_job_tracker` does not exist
+    at ei.handleRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:242:13)
+    at ei.handleAndLogRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ei.request (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async a (D:\job_api\api\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:833:24)
+    at async getJobs (D:\job_api\api\src\controllers\jobsController.ts:8:18) {
+  clientVersion: '6.19.3',
+  errorCode: undefined,
+  retryable: undefined
+}
+[live-jobs] Source failed: Error: Invalid character in entity name
+Line: 53
+Column: 78
+Char: =
+    at error (D:\job_api\api\node_modules\sax\lib\sax.js:829:10)
+    at strictFail (D:\job_api\api\node_modules\sax\lib\sax.js:858:7)
+    at SAXParser.write (D:\job_api\api\node_modules\sax\lib\sax.js:1771:13)
+    at exports.Parser.Parser.parseString (D:\job_api\api\node_modules\xml2js\lib\parser.js:327:31)
+    at Parser.parseString (D:\job_api\api\node_modules\xml2js\lib\parser.js:5:59)
+    at D:\job_api\api\node_modules\rss-parser\lib\parser.js:33:22
+    at new Promise (<anonymous>)
+    at Parser.parseString (D:\job_api\api\node_modules\rss-parser\lib\parser.js:32:16)
+    at IncomingMessage.<anonymous> (D:\job_api\api\node_modules\rss-parser\lib\parser.js:96:23)
+    at IncomingMessage.emit (node:events:520:35)
+PrismaClientInitializationError: 
+Invalid `prisma.job.findMany()` invocation in
+D:\job_api\api\src\controllers\jobsController.ts:8:35
+
+  5 
+  6 export async function getJobs(_req: Request, res: Response) {
+  7   try {
+→ 8     const jobs = await prisma.job.findMany(
+Database `apac_remote_job_tracker` does not exist
+    at ei.handleRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:242:13)
+    at ei.handleAndLogRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ei.request (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async a (D:\job_api\api\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:833:24)
+    at async getJobs (D:\job_api\api\src\controllers\jobsController.ts:8:18) {
+  clientVersion: '6.19.3',
+  errorCode: undefined,
+  retryable: undefined
+}
+[live-jobs] Source failed: Error: Invalid character in entity name
+Line: 131
+Column: 83
+Char: =
+    at error (D:\job_api\api\node_modules\sax\lib\sax.js:829:10)
+    at strictFail (D:\job_api\api\node_modules\sax\lib\sax.js:858:7)
+    at SAXParser.write (D:\job_api\api\node_modules\sax\lib\sax.js:1771:13)
+    at exports.Parser.Parser.parseString (D:\job_api\api\node_modules\xml2js\lib\parser.js:327:31)
+    at Parser.parseString (D:\job_api\api\node_modules\xml2js\lib\parser.js:5:59)
+    at D:\job_api\api\node_modules\rss-parser\lib\parser.js:33:22
+    at new Promise (<anonymous>)
+    at Parser.parseString (D:\job_api\api\node_modules\rss-parser\lib\parser.js:32:16)
+    at IncomingMessage.<anonymous> (D:\job_api\api\node_modules\rss-parser\lib\parser.js:96:23)
+    at IncomingMessage.emit (node:events:520:35)
+[live-jobs] Source failed: Error: Status code 429
+    at ClientRequest.<anonymous> (D:\job_api\api\node_modules\rss-parser\lib\parser.js:88:25)
+    at Object.onceWrapper (node:events:623:26)
+    at ClientRequest.emit (node:events:508:28)
+    at HTTPParser.parserOnIncomingClient [as onIncoming] (node:_http_client:772:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:121:17)
+    at TLSSocket.socketOnData (node:_http_client:614:22)
+    at TLSSocket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+[live-jobs] Source failed: Error: Status code 429
+    at ClientRequest.<anonymous> (D:\job_api\api\node_modules\rss-parser\lib\parser.js:88:25)
+    at Object.onceWrapper (node:events:623:26)
+    at ClientRequest.emit (node:events:508:28)
+    at HTTPParser.parserOnIncomingClient [as onIncoming] (node:_http_client:772:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:121:17)
+    at TLSSocket.socketOnData (node:_http_client:614:22)
+    at TLSSocket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+PrismaClientInitializationError: 
+Invalid `prisma.job.findMany()` invocation in
+D:\job_api\api\src\controllers\jobsController.ts:8:35
+
+  5 
+  6 export async function getJobs(_req: Request, res: Response) {
+  7   try {
+→ 8     const jobs = await prisma.job.findMany(
+Database `apac_remote_job_tracker` does not exist
+    at ei.handleRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:242:13)
+    at ei.handleAndLogRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ei.request (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async a (D:\job_api\api\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:833:24)
+    at async getJobs (D:\job_api\api\src\controllers\jobsController.ts:8:18) {
+  clientVersion: '6.19.3',
+  errorCode: undefined,
+  retryable: undefined
+}
+[live-jobs] Source failed: Error: Invalid character in entity name
+Line: 131
+Column: 83
+Char: =
+    at error (D:\job_api\api\node_modules\sax\lib\sax.js:829:10)
+    at strictFail (D:\job_api\api\node_modules\sax\lib\sax.js:858:7)
+    at SAXParser.write (D:\job_api\api\node_modules\sax\lib\sax.js:1771:13)
+    at exports.Parser.Parser.parseString (D:\job_api\api\node_modules\xml2js\lib\parser.js:327:31)
+    at Parser.parseString (D:\job_api\api\node_modules\xml2js\lib\parser.js:5:59)
+    at D:\job_api\api\node_modules\rss-parser\lib\parser.js:33:22
+    at new Promise (<anonymous>)
+    at Parser.parseString (D:\job_api\api\node_modules\rss-parser\lib\parser.js:32:16)
+    at IncomingMessage.<anonymous> (D:\job_api\api\node_modules\rss-parser\lib\parser.js:96:23)
+    at IncomingMessage.emit (node:events:520:35)
+[live-jobs] Source failed: Error: Status code 429
+    at ClientRequest.<anonymous> (D:\job_api\api\node_modules\rss-parser\lib\parser.js:88:25)
+    at Object.onceWrapper (node:events:623:26)
+    at ClientRequest.emit (node:events:508:28)
+    at HTTPParser.parserOnIncomingClient [as onIncoming] (node:_http_client:772:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:121:17)
+    at TLSSocket.socketOnData (node:_http_client:614:22)
+    at TLSSocket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+[live-jobs] Source failed: Error: Status code 429
+    at ClientRequest.<anonymous> (D:\job_api\api\node_modules\rss-parser\lib\parser.js:88:25)
+    at Object.onceWrapper (node:events:623:26)
+    at ClientRequest.emit (node:events:508:28)
+    at HTTPParser.parserOnIncomingClient [as onIncoming] (node:_http_client:772:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:121:17)
+    at TLSSocket.socketOnData (node:_http_client:614:22)
+    at TLSSocket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+PrismaClientInitializationError: 
+Invalid `prisma.job.findMany()` invocation in
+D:\job_api\api\src\controllers\jobsController.ts:8:35
+
+  5 
+  6 export async function getJobs(_req: Request, res: Response) {
+  7   try {
+→ 8     const jobs = await prisma.job.findMany(
+Database `apac_remote_job_tracker` does not exist
+    at ei.handleRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:242:13)
+    at ei.handleAndLogRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ei.request (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async a (D:\job_api\api\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:833:24)
+    at async getJobs (D:\job_api\api\src\controllers\jobsController.ts:8:18) {
+  clientVersion: '6.19.3',
+  errorCode: undefined,
+  retryable: undefined
+}
+[live-jobs] Source failed: Error: Invalid character in entity name
+Line: 131
+Column: 83
+Char: =
+    at error (D:\job_api\api\node_modules\sax\lib\sax.js:829:10)
+    at strictFail (D:\job_api\api\node_modules\sax\lib\sax.js:858:7)
+    at SAXParser.write (D:\job_api\api\node_modules\sax\lib\sax.js:1771:13)
+    at exports.Parser.Parser.parseString (D:\job_api\api\node_modules\xml2js\lib\parser.js:327:31)
+    at Parser.parseString (D:\job_api\api\node_modules\xml2js\lib\parser.js:5:59)
+    at D:\job_api\api\node_modules\rss-parser\lib\parser.js:33:22
+    at new Promise (<anonymous>)
+    at Parser.parseString (D:\job_api\api\node_modules\rss-parser\lib\parser.js:32:16)
+    at IncomingMessage.<anonymous> (D:\job_api\api\node_modules\rss-parser\lib\parser.js:96:23)
+    at IncomingMessage.emit (node:events:520:35)
+[live-jobs] Source failed: Error: Status code 429
+    at ClientRequest.<anonymous> (D:\job_api\api\node_modules\rss-parser\lib\parser.js:88:25)
+    at Object.onceWrapper (node:events:623:26)
+    at ClientRequest.emit (node:events:508:28)
+    at HTTPParser.parserOnIncomingClient [as onIncoming] (node:_http_client:772:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:121:17)
+    at TLSSocket.socketOnData (node:_http_client:614:22)
+    at TLSSocket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+[live-jobs] Source failed: Error: Status code 429
+    at ClientRequest.<anonymous> (D:\job_api\api\node_modules\rss-parser\lib\parser.js:88:25)
+    at Object.onceWrapper (node:events:623:26)
+    at ClientRequest.emit (node:events:508:28)
+    at HTTPParser.parserOnIncomingClient [as onIncoming] (node:_http_client:772:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:121:17)
+    at TLSSocket.socketOnData (node:_http_client:614:22)
+    at TLSSocket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+PrismaClientInitializationError: 
+Invalid `prisma.job.findMany()` invocation in
+D:\job_api\api\src\controllers\jobsController.ts:8:35
+
+  5 
+  6 export async function getJobs(_req: Request, res: Response) {
+  7   try {
+→ 8     const jobs = await prisma.job.findMany(
+Database `apac_remote_job_tracker` does not exist
+    at ei.handleRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:242:13)
+    at ei.handleAndLogRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ei.request (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async a (D:\job_api\api\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:833:24)
+    at async getJobs (D:\job_api\api\src\controllers\jobsController.ts:8:18) {
+  clientVersion: '6.19.3',
+  errorCode: undefined,
+  retryable: undefined
+}
+[live-jobs] Source failed: Error: Invalid character in entity name
+Line: 131
+Column: 83
+Char: =
+    at error (D:\job_api\api\node_modules\sax\lib\sax.js:829:10)
+    at strictFail (D:\job_api\api\node_modules\sax\lib\sax.js:858:7)
+    at SAXParser.write (D:\job_api\api\node_modules\sax\lib\sax.js:1771:13)
+    at exports.Parser.Parser.parseString (D:\job_api\api\node_modules\xml2js\lib\parser.js:327:31)
+    at Parser.parseString (D:\job_api\api\node_modules\xml2js\lib\parser.js:5:59)
+    at D:\job_api\api\node_modules\rss-parser\lib\parser.js:33:22
+    at new Promise (<anonymous>)
+    at Parser.parseString (D:\job_api\api\node_modules\rss-parser\lib\parser.js:32:16)
+    at IncomingMessage.<anonymous> (D:\job_api\api\node_modules\rss-parser\lib\parser.js:96:23)
+    at IncomingMessage.emit (node:events:520:35)
+[live-jobs] Source failed: Error: Status code 429
+    at ClientRequest.<anonymous> (D:\job_api\api\node_modules\rss-parser\lib\parser.js:88:25)
+    at Object.onceWrapper (node:events:623:26)
+    at ClientRequest.emit (node:events:508:28)
+    at HTTPParser.parserOnIncomingClient [as onIncoming] (node:_http_client:772:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:121:17)
+    at TLSSocket.socketOnData (node:_http_client:614:22)
+    at TLSSocket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+[live-jobs] Source failed: Error: Status code 429
+    at ClientRequest.<anonymous> (D:\job_api\api\node_modules\rss-parser\lib\parser.js:88:25)
+    at Object.onceWrapper (node:events:623:26)
+    at ClientRequest.emit (node:events:508:28)
+    at HTTPParser.parserOnIncomingClient [as onIncoming] (node:_http_client:772:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:121:17)
+    at TLSSocket.socketOnData (node:_http_client:614:22)
+    at TLSSocket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+PrismaClientInitializationError: 
+Invalid `prisma.job.findMany()` invocation in
+D:\job_api\api\src\controllers\jobsController.ts:8:35
+
+  5 
+  6 export async function getJobs(_req: Request, res: Response) {
+  7   try {
+→ 8     const jobs = await prisma.job.findMany(
+Database `apac_remote_job_tracker` does not exist
+    at ei.handleRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:242:13)
+    at ei.handleAndLogRequestError (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:174:12)
+    at ei.request (D:\job_api\api\node_modules\@prisma\client\src\runtime\RequestHandler.ts:143:12)
+    at async a (D:\job_api\api\node_modules\@prisma\client\src\runtime\getPrismaClient.ts:833:24)
+    at async getJobs (D:\job_api\api\src\controllers\jobsController.ts:8:18) {
+  clientVersion: '6.19.3',
+  errorCode: undefined,
+  retryable: undefined
+}
+[live-jobs] Source failed: Error: Invalid character in entity name
+Line: 131
+Column: 83
+Char: =
+    at error (D:\job_api\api\node_modules\sax\lib\sax.js:829:10)
+    at strictFail (D:\job_api\api\node_modules\sax\lib\sax.js:858:7)
+    at SAXParser.write (D:\job_api\api\node_modules\sax\lib\sax.js:1771:13)
+    at exports.Parser.Parser.parseString (D:\job_api\api\node_modules\xml2js\lib\parser.js:327:31)
+    at Parser.parseString (D:\job_api\api\node_modules\xml2js\lib\parser.js:5:59)
+    at D:\job_api\api\node_modules\rss-parser\lib\parser.js:33:22
+    at new Promise (<anonymous>)
+    at Parser.parseString (D:\job_api\api\node_modules\rss-parser\lib\parser.js:32:16)
+    at IncomingMessage.<anonymous> (D:\job_api\api\node_modules\rss-parser\lib\parser.js:96:23)
+    at IncomingMessage.emit (node:events:520:35)
+[live-jobs] Source failed: Error: Status code 429
+    at ClientRequest.<anonymous> (D:\job_api\api\node_modules\rss-parser\lib\parser.js:88:25)
+    at Object.onceWrapper (node:events:623:26)
+    at ClientRequest.emit (node:events:508:28)
+    at HTTPParser.parserOnIncomingClient [as onIncoming] (node:_http_client:772:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:121:17)
+    at TLSSocket.socketOnData (node:_http_client:614:22)
+    at TLSSocket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+[live-jobs] Source failed: Error: Status code 429
+    at ClientRequest.<anonymous> (D:\job_api\api\node_modules\rss-parser\lib\parser.js:88:25)
+    at Object.onceWrapper (node:events:623:26)
+    at ClientRequest.emit (node:events:508:28)
+    at HTTPParser.parserOnIncomingClient [as onIncoming] (node:_http_client:772:27)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:121:17)
+    at TLSSocket.socketOnData (node:_http_client:614:22)
+    at TLSSocket.emit (node:events:508:28)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Readable.push (node:internal/streams/readable:390:5)
+[job-import:scheduled] Source "Real Work From Anywhere Backend" error: Invalid character in entity name
+Line: 131
+Column: 83
+Char: =
+[job-import:scheduled] Source "WorkAnywhere Developer" error: Status code 429
+[job-import:scheduled] Source "WorkAnywhere Engineer" error: Status code 429
