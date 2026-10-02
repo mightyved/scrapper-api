@@ -4,7 +4,7 @@ import multer from "multer";
 import { PDFParse } from "pdf-parse";
 import { analyzeResumeAgainstJob, generateTailoredResumeForJob, type ResumeJobInput } from "../lib/resumeAnalysis.js";
 
-const maxResumeFileSize = 8 * 1024 * 1024;
+const maxResumeFileSize = 4 * 1024 * 1024;
 
 export const resumeUpload = multer({
   limits: {
