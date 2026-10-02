@@ -6,7 +6,7 @@ import { jobRoutes } from "./routes/jobRoutes.js";
 import { resumeAnalysisRoutes } from "./routes/resumeAnalysisRoutes.js";
 import { sourceRoutes } from "./routes/sourceRoutes.js";
 
-export const app = express();
+const app = express();
 
 const corsOrigins = (process.env.CORS_ORIGIN || "*")
   .split(",")
@@ -30,3 +30,6 @@ app.use((error: unknown, _req: Request, res: Response, _next: NextFunction) => {
   console.error(error);
   res.status(500).json({ error: "Internal server error" });
 });
+
+export { app };
+export default app;
